@@ -1,0 +1,104 @@
+.formContainer {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+  }
+  
+  .field {
+    margin-bottom: 1rem;
+    position: relative;
+  }
+  
+  .label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .required {
+    color: var(--danger-color);
+  }
+  
+  .input,
+  .textarea,
+  .select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    font-family: inherit;
+    font-size: 0.875rem;
+  }
+  
+  .input:focus,
+  .textarea:focus,
+  .select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+  }
+  
+  .charCount {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 0.75rem;
+    color: #6b7280;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+  
+  .cancelBtn,
+  .submitBtn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+  }
+  
+  .cancelBtn {
+    background-color: white;
+    border: 1px solid #e5e7eb;
+    color: #6b7280;
+  }
+  
+  .cancelBtn:hover {
+    background-color: #f9fafb;
+  }
+  
+  .submitBtn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+  }
+  
+  .submitBtn:hover {
+    background-color: #2563eb;
+  }
+  
+  .error {
+    background-color: #fee2e2;
+    color: #b91c1c;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+  }
